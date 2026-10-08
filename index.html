@@ -1,0 +1,20 @@
+async function hacerCheckin(id) {
+
+    if (!confirm("¿Confirmas que deseas realizar el Check-in de este transporte?")) {
+      return;
+    }
+
+    alert(
+      "El Check-in se conectará con Supabase en el siguiente paso."
+    );
+  }
+
+  document
+    .getElementById("buscar")
+    .addEventListener("input", renderizar);
+
+  cargarTransportes();
+</script>
+
+</body>
+</html>
